@@ -22,19 +22,19 @@ Un F-16 recorre la pista del aeropuerto José María Córdova durante 10 segundo
 
 ###  Fórmulas Matemáticas
 - Peso:  
-  \[
+  
   W = m \cdot g
-  \]
+  
 
 - Sustentación:  
-  \[
+  
   L = \tfrac{1}{2} \cdot \rho \cdot V^2 \cdot S \cdot C_L
-  \]
+  
 
 - Distancia acumulada:  
-  \[
+  
   d = d + V \cdot \Delta t
-  \]
+  
 
 ###  Pseudocódigo 
 ```
@@ -91,14 +91,14 @@ Un avión inicia con cierta cantidad de combustible. Durante 5 minutos de vuelo,
 
 ###  Fórmulas Matemáticas
 - Actualización de combustible:  
-  \[
+  
   combustible = combustible - consumo \cdot \Delta t
-  \]
-
+  
 - Condición:  
-  \[
+  
+
   combustible \geq 0
-  \]
+  
 
 ###  Pseudocódigo Universal
 ```
@@ -151,14 +151,14 @@ Un avión vuela a una velocidad inicial. Durante 8 segundos, el piloto decide si
 
 ###  Fórmulas Matemáticas
 - Arrastre aerodinámico:  
-  \[
+  
   D = \tfrac{1}{2} \cdot \rho \cdot V^2 \cdot S \cdot C_d
-  \]
+  
 
 - Actualización de velocidad:  
-  \[
+  
   V = V \pm \Delta V
-  \]
+  
 
 ###  Pseudocódigo 
 ```
@@ -183,7 +183,7 @@ FIN SI
   IMPRIMIR "Segundo ", t, " velocidad=", V, " arrastre=", D
 
   SI D > 100000 ENTONCES
-      IMPRIMIR "⚠ Arrastre excesivo en el segundo ", t
+      IMPRIMIR " Arrastre excesivo en el segundo ", t
   FIN SI
 ```
 
