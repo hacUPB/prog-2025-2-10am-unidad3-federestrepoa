@@ -22,3 +22,17 @@ if imc > 35 and imc < 39.9:
     print("imc obesidad II")
 if imc >= 40:
     print("imc obesidad EXTREMA")
+print("Tu IMC = ",imc)
+if imc < 18.5:
+    mensaje = "bajo peso"
+elif imc < 25: 
+    mensaje = "peso normal"
+elif imc < 35:
+    mensaje = "obesidad tipo 1"
+elif imc < 40:
+    mesaje = "obesidad tipo 2" 
+else : 
+    mesaje = "obesidad extrema"
+
+print(f"paciente {nombre},tiene un imc de {imc:0.2f} y su condicion es de {mensaje}")
+    
