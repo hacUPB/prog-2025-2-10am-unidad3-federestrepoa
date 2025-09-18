@@ -3,4 +3,4 @@ Contador = 1
 while Contador <= 15:
     Resultado = Num * Contador
     print(f"{Num}*{Contador} = {Resultado}") 
- Contador+=1
+Contador+=1
